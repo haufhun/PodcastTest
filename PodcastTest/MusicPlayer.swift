@@ -48,7 +48,7 @@ struct PlayerSliderView: View {
 }
 
 struct MusicPlayer : View {
-    let songs = []
+    let songs = [] // Fill in with your songs from ./Media
     @State var current = 0
 
     @State var title = ""
